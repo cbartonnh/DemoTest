@@ -27,9 +27,7 @@ namespace DemoTest
 
         protected override void OnStart()
         {
-            base.OnStart();
-
-            MobileCenter.Start("ios=20d16c23-31ff-4862-8293-04c7f758e83b;",
+            MobileCenter.Start("20d16c23-31ff-4862-8293-04c7f758e83b;",
                    typeof(Analytics), typeof(Crashes));
         }
     }
